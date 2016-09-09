@@ -1,0 +1,95 @@
+@CHARSET "UTF-8";
+label{font:12px Times;}
+font{font:11px Arial;}
+#uploadImg .imgs{
+	margin-top:5px;
+	margin-bottom:5px;
+	display:block;
+	border:1px solid #8DB2E3;}
+div.img{
+	display:relative;
+	margin-left:5%;
+	border:1px solid #8DB2E3;
+	font:12px Times;}
+div.information{   
+	display:relative;
+	margin-left:20%;
+	margin-top:-160px;
+	}
+	
+div.divImg{
+	border:1px solid #8DB2E3;
+	display:block;
+	margin:5px 90px;
+}
+
+div.detailRecord div.detailTitle{
+	padding-top:5px;
+	background-image:url(../img/tab1.gif);
+	background-repeat:repeat-x;
+}
+
+div.detailRecord label{
+	margin-left:5px;
+	font:bold 15px Times;
+	color:#ff3300;
+	
+}
+
+div.detailRecord table{
+	border-collapse:collapse;
+}
+
+div.detailRecord table th,tr{
+	border:0;
+	font:bold 12px Times;
+	border-bottom:1px dotted #8DB2E3;
+	opacity:0.8;
+}
+
+div.leaveWords div.wordsTitle{
+	padding-top:5px;
+	background-image:url(../img/tab1.gif);
+	background-repeat:repeat-x;
+}
+
+div.leaveWords label{
+	margin-left:20px;
+	font:bold 15px Times;
+	color:#98bf21;
+	
+}
+
+div.div_bid{
+	width:100%;
+	height:60px;
+	margin-top:0px;
+	margin-left:10px;
+	margin-bottom:20px;
+}
+
+div.div_bid button.bt_bidForGoods{
+	height:25px;
+	background-color:#98bf21;
+	font:12px Times;
+	color:white;
+}
+
+div.div_discussArea{
+	margin-top:-5px;
+	border-bottom:1px solid #c0c0c0;
+}
+
+div.div_discussArea textarea{
+	resize:none;
+	border:0px;
+}
+
+div.div_editor{
+	opacity:0.8;
+}
+
+div.div_editor textarea{
+	resize:none;
+	border:0px;
+}
